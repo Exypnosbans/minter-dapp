@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "The Awaken Mummies Welcome you here!!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'T A total 7777 Unique Collection of Time-Travelled Mummies are wandering around looking for a permanent abode to rest. Could provide them one? If yes, why not join this great project.';
+const welcome_p = 'A total 7777 Unique Collection of Time-Travelled Mummies are wandering around looking for a permanent abode to rest. Could provide them one? If yes, why not join this great project.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!";
