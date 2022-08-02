@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "THE MUMMIFIED";
 const description = " A 7777 NFT collection of time traveled mummies";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "ipfs://QmXPPKvvHoNyMYysNbeMvnczpDpMJ3zqhmeHZzqnKY56bw"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
@@ -30,8 +30,8 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 2304,
-  height: 3072,
+  width: 810,
+  height: 1080,
   smoothing: false,
 };
 
@@ -57,21 +57,21 @@ const MINT_PRICE = 0.00; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH
 const TOKENS_PER_MINT = 2; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-08-03T12:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-08-04T12:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-08-03T12:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 750; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x8A157EC2cE120dEc3fE0295456128361A522FD6b"; // Address that will receive the royalty
-const BASE_URI = null; // only update if you want to manually set the base uri
+const BASE_URI = "ipfs://bafybeihismig7ntqzc6qunumtrcakect5ox3yv53ohzruzc3vuyctyxdae"; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x8A157EC2cE120dEc3fE0295456128361A522FD6b"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x8A157EC2cE120dEc3fE0295456128361A522FD6b", "0x4284dfBF4F487fF8B25f2e002E0DB2C590a5d9E8", "0x7583c592703F5EC25aa075e0B1748CB255BeBD47", "0x2C4D8464246f8D5ae8ED2d222199075bCda71302"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "WAIT FOR IT"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeie6xtsrutgynoyh3ike6muqlcqehidze67l5bjgmznmm73zig5yky"; // Replace with your generic image that will display for all NFTs pre-reveal.
