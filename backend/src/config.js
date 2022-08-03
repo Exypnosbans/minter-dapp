@@ -49,21 +49,21 @@ const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'THE MUMMIFIED';
 const CONTRACT_SYMBOL = 'TMD';
-const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
+const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x8A157EC2cE120dEc3fE0295456128361A522FD6b';
 const TREASURY_ADDRESS = '0x8A157EC2cE120dEc3fE0295456128361A522FD6b';
 const MAX_SUPPLY = 20; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.00; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 2; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-08-04T12:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-08-03T11:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-08-03T12:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
-const ROYALTY_SHARE = 750; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
+const PRESALE_MINT_START_DATE = "2022-08-03T02:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x8A157EC2cE120dEc3fE0295456128361A522FD6b"; // Address that will receive the royalty
-const BASE_URI = "ipfs://bafybeihismig7ntqzc6qunumtrcakect5ox3yv53ohzruzc3vuyctyxdae"; // only update if you want to manually set the base uri
+const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = ["0x8A157EC2cE120dEc3fE0295456128361A522FD6b", "0x4284dfBF4F487fF8B25f2e002E0DB2C590a5d9E8", "0x7583c592703F5EC25aa075e0B1748CB255BeBD47", "0x2C4D8464246f8D5ae8ED2d222199075bCda71302", "0xB27e50F654Bc9924885F1311778832b98E7F99eA","0x711f6CA4Ef739eb40D78bdcb425a2cE1b4ee3Bbd"]; // only update if you want to manually set the whitelisted addresses
 
